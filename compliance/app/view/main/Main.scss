@@ -1,0 +1,244 @@
+/*
+ * This file contains styling for the Main view.
+ */
+
+/*
+ * Generates a set of style rules for the "navigation" tab UI.
+ */
+@include extjs-tab-panel-ui(
+    $ui: 'navigation',
+    $ui-tab-background-color: transparent,
+    $ui-tab-background-color-over: #505050,
+    $ui-tab-background-color-active: #303030,
+    $ui-tab-background-gradient: 'none',
+    $ui-tab-background-gradient-over: 'none',
+    $ui-tab-background-gradient-active: 'none',
+    $ui-tab-color: #acacac,
+    $ui-tab-color-over: #c4c4c4,
+    $ui-tab-color-active: #fff,
+    $ui-tab-glyph-color: #acacac,
+    $ui-tab-glyph-color-over: #c4c4c4,
+    $ui-tab-glyph-color-active: #fff,
+    $ui-tab-glyph-opacity: 1,
+    $ui-tab-border-radius: 0,
+    $ui-tab-border-width: 0,
+    $ui-tab-inner-border-width: 0,
+    $ui-tab-padding: 24px,
+    $ui-tab-margin: 0,
+    $ui-tab-font-size: 15px,
+    $ui-tab-font-size-over: 15px,
+    $ui-tab-font-size-active: 15px,
+    $ui-tab-line-height: 19px,
+    $ui-tab-font-weight: bold,
+    $ui-tab-font-weight-over: bold,
+    $ui-tab-font-weight-active: bold,
+    $ui-tab-icon-width: 24px,
+    $ui-tab-icon-height: 24px,
+    $ui-tab-icon-spacing: 5px,
+    $ui-bar-background-color: #404040,
+    $ui-bar-background-gradient: 'none',
+    $ui-bar-padding: 0,
+    $ui-strip-height: 0
+);
+
+/*
+ * Generates a set of style rules for the "navigation" panel UI.
+ */
+@include extjs-panel-ui(
+    $ui: 'navigation',
+    $ui-header-color: #fff,
+    $ui-header-glyph-color: #fff,
+    $ui-header-glyph-opacity: 1,
+    $ui-header-font-size: 20px,
+    $ui-header-line-height: 24px,
+    $ui-header-font-weight: bold,
+    $ui-header-icon-height: 24px,
+    $ui-header-icon-width: 24px,
+    $ui-header-icon-spacing: 15px,
+    $ui-header-background-color: $base-color,
+    $ui-header-padding: 0,
+    $ui-header-text-margin: 36px,
+    $ui-header-noborder-adjust: false
+);
+
+.x-title-icon-navigation {
+    font-family: 'Font Awesome 5 Free';
+    color: #fff;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.x-tab-icon-el-navigation {
+    font-family: 'Font Awesome 5 Free';
+    color: #acacac;
+
+    .x-tab-over & {
+        color: #c4c4c4;
+    }
+
+    .x-tab-active & {
+        color: #fff;
+    }
+}
+
+.x-panel-header-title-navigation > .x-title-text-navigation:after {
+    top: 30px;
+    right: -24px;
+}
+
+.baseRuleCheckbox {
+    margin-top: 10px;
+    margin-right: 120px;
+    margin-left: 15px;
+}
+
+.loadBaseRuleCheckbox {
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.buttonMargin {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15;
+}
+
+.buttonMarginExport {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15;
+    margin-right: 54px;
+}
+
+.buttonMarginSave {
+    margin-top: 15px;
+    margin-left: 175px;
+    margin-bottom: 15px;
+}
+
+.buttonMarginNew {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.buttonMarginLoadSheet {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.rulesComboBox {
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+.useBaseRuleButton {
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.comboCertificate {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.comboFor {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+.comboAddInfo {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.includeLineButton {
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.loadSheetButton {
+    margin-left: 3px;
+}
+
+.idRule {
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+.description {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.listMargin {
+    margin-top: 30px;
+    border-bottom: 1px solid blue;
+}
+
+.bottomContainerBorder {
+    border-bottom: 1px solid blue;
+}
+
+.charId {
+    margin-left: 500px;
+}
+
+.layoutMargins {
+    margin-right: 300px;
+}
+
+.rulesResultGrid {
+    margin-top: 15px;
+}
+
+.displayFieldMargin {
+    margin-top: 12px;
+    margin-left: 30px;
+    padding-left: 8px;
+    padding-right: 8px; 
+    padding-top: 1px; 
+	border-left: 1px solid rgb(194, 194, 194); 
+	border-right: 1px solid rgb(194, 194, 194); 
+	border-top: 1px solid rgb(194, 194, 194); 
+	border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.displayFieldMarginDesc {
+    margin-top: 12px;
+    margin-left: 30px;
+    padding-left: 8px;
+    padding-right: 20px; 
+    padding-top: 1px; 
+	border-left: 1px solid rgb(194, 194, 194); 
+	border-right: 1px solid rgb(194, 194, 194); 
+	border-top: 1px solid rgb(194, 194, 194); 
+	border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.splitterTop {
+    background-color: rgb(245, 245, 245);
+    border-right: 1px solid rgb(194, 194, 194); 
+	border-left: 1px solid rgb(194, 194, 194);
+}
+
+.splitterBottom {
+    background-color: rgb(245, 245, 245);
+    border-right: 1px solid rgb(194, 194, 194); 
+	border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.grid {
+    margin-left: 5px;
+}
+/* 
+.btn {
+    background-image: #30F !important;
+    background-color: #30F !important;
+} */
